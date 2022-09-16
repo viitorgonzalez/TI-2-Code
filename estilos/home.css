@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+}
+
+
+/* -------------------- NAV ---------------------- */
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.nav h1 {
+    color: white;
+}
+
+.menu {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding-top: 1rem;
+    justify-content: center;
+    background-color: #0B0A2D;
+    height: 90%;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+}
+
+.icon {
+    color: white;
+    font-size: larger;
+}
+
+.icon:hover {
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+.sair {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    font-size: larger;
+}
+
+/*-------------- WELCOMING PARTE - MIDDLE ---------------------*/
+
+.welcoming {
+    display: flex;
+    padding-top: 2rem;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.welcoming_user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 1rem 1rem;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #eaeff3;
+}
+
+.welcoming_user_message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 2rem;
+    gap: 0.5rem;
+}
+
+.welcoming_user_image {
+    display: flex;
+    justify-content: center;
+}
+
+.welcoming_products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+}
+
+.welcoming_products_button {
+    display: flex;
+    justify-content: right;
+}
+
+.welcoming_products_tittle {
+    display: flex;
+    align-items: center;
+}
+
+.welcoming_products_tittle h3, .welcoming_products_name h3 {
+    color: #434343;
+}
+
+.welcoming_products button {
+    padding: 0.7rem;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 300;
+    background-color: #0B0A2D;
+    color: white;
+}
+
+.welcoming_products button:hover {
+    background-color: #18153f;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.welcome_products_list {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 2rem;
+}
+
+.welcoming_list {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-left: 1rem;
+    height: 4rem;
+    background-color: #eaeff3;
+    border-radius: 10px;
+}
+
+.welcoming_products_name {
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.welcoming_products_qnt, .welcoming_products_price {
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* -------------------- WALLET ---------------------- */
+.acc_info {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 80%;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.acc_info_profile {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    width: 80%;
+    padding-bottom: 3rem;
+}
+
+.acc_info_money {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 10px;
+    padding-left: 2rem;
+    gap: 1rem;
+    width: 80%;
+    background-color: #0B0A2D;
+    padding-top: 2rem;
+}
+
+.acc_info h1 {
+    color: white;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.info_money {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.info_money span {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.icon_acc {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}

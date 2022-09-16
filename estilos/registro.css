@@ -1,0 +1,149 @@
+body {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+}
+
+.cor {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #151733;
+    color: white;
+}
+
+.cor_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+}
+
+.cor button {
+    padding: 0.8rem 4rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.cor p {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form h2 {
+    color: #434343;
+}
+
+.social {
+    color: #434343;
+}
+
+.form p {
+    color: #434343;
+    font-weight: 400;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.social-media {
+    margin: 1rem 0;
+}
+.link-social-media:not(:first-child){
+    margin-left: 10px;
+}
+.link-social-media .item-social-media {
+    transition: background-color .5s;
+}
+.link-social-media:hover .item-social-media{
+    background-color: #151733;
+    color: #fff;
+    border-color: #151733;
+}
+.list-social-media {
+    display: flex;
+    list-style-type: none;
+}
+.item-social-media {
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6;
+}
+
+.form_list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 2rem;
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form input {
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.social {
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    height: 3rem;
+}
+
+.btn-second {
+    background-color: #151733;
+    border: 1px solid #151733;
+    transition: background-color .5s;
+}
+.btn-second:hover {
+    background-color: #fff;
+    border: 1px solid #151733;
+    color: #151733;
+}
+
+.login:hover {
+    cursor: pointer;
+}
